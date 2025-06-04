@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jeanfideliom.github.io",
+  "homepage": "https://jeanfideliom.github.io/jeanfideliom.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
