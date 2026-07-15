@@ -1,0 +1,39 @@
+.navbar {
+  @apply bg-white shadow-md fixed top-0 left-0 w-full z-50;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.inner {
+  @apply flex justify-between items-center h-16;
+}
+
+.logo {
+  @apply text-xl font-bold text-gray-800;
+}
+
+.desktopLinks {
+  @apply hidden md:flex space-x-8;
+}
+
+.navLink {
+  @apply text-gray-600 hover:text-gray-900 font-medium transition-colors;
+}
+
+.ctaButton {
+  @apply bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors;
+}
+
+.mobileMenuBtn {
+  @apply md:hidden;
+}
+
+.mobileMenu {
+  @apply md:hidden bg-white px-4 pb-4 space-y-2;
+}
+
+.mobileNavLink {
+  @apply block text-gray-600 hover:text-gray-900 font-medium py-2;
+}
